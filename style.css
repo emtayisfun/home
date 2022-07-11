@@ -1,0 +1,120 @@
+body{
+  font-family: Inter, Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  background: linear-gradient(140deg, rgb(97, 116, 140), rgb(32, 32, 51));
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: Anton, Inter, Roboto, Sans-Serif;
+  text-transform: uppercase;
+}
+a{
+  text-decoration: none;
+}
+.btn{ 
+  border: none;
+  background-color: #61748C;
+}
+.btn:hover{ 
+  background-color: #202033;
+}
+
+/* custom css */
+.navbar{
+  background-color: #202033;
+  font-family: Inter, Roboto, sans-serif;
+  text-transform: normal;
+  
+}
+#navbarNav{
+  visibility: hidden;
+}
+@media screen and (max-width: 992px) {
+  #navbarNav{
+    visibility:visible;
+  }
+}
+.navbar .navbar-toggler{
+  border: none;
+}
+
+/* feature section */
+#featureSection{ 
+  color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  min-height: auto;
+}
+@media screen and (max-width: 500px) {
+  #featureSection{ 
+    padding-top: 50px;
+    padding-bottom: 50px;
+    min-height: auto;
+  }
+}
+#innerFeature{
+}
+@media screen and (max-width: 500px) {
+  #about{
+    text-align: center;
+  }
+}
+#about h1{
+  font-size: 82px;
+}
+@media screen and (max-width: 500px) {
+  #about h1{
+    font-size: 56px;
+  }
+}
+#about h3{
+  color: #20FFFF;
+  font-size: 72px;
+  opacity: 0.8;
+}
+@media screen and (max-width: 500px) {
+  #about h3{
+    font-size: 56px;
+  }
+}
+#about p#featureText{
+  font-family: 'Libre Baskerville', serif;
+  font-style: italic;
+  font-size: x-large;
+  opacity: 0.6;
+}
+@media screen and (max-width: 500px) {
+  #about p#featureText{
+    font-size: small;
+  }
+}
+#about span{
+  margin-right: 15px;
+}
+#about .fa-brands{ 
+  font-size: x-large;
+  color: #FFF;
+}
+
+/* footer */
+footer{
+  color: #FFF;
+  text-align: center;
+}
+/* footnote */
+footer #footnote{
+  font-family: Inter, Roboto, Sans-serif;
+  font-size: small;
+  padding-top: 15px;
+}
+#footnote #hosting{
+  opacity: 0.6;
+}
+#footnote #hosting a{
+  color: #FFF;
+  text-decoration: none;
+}
+#footnote #hosting a:hover{
+  color: #20FFFF;
+}
